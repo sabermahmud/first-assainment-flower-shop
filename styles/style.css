@@ -9,9 +9,10 @@
 header {
     background: #efaebaaf;
 }
+
 /* navbar style start */
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +20,7 @@ header {
 }
 
 
-.logo{
+.logo {
     padding: 20px 20px;
     font-size: 36px;
     font-weight: 800;
@@ -27,51 +28,63 @@ header {
     letter-spacing: 1px;
 }
 
+sup {
+    color: #272727;
+    font-size: 15px;
+}
 
-.navbar-options>ul>li{
+
+.navbar-options>ul>li {
     list-style: none;
     display: inline;
     padding: 0px 10px;
 }
 
-.navbar-options a{
+.navbar-options a {
     text-decoration: none;
     color: #2727279d;
     font-size: 20px;
 }
 
-.navbar-options a:hover{
+.navbar-options a:hover {
     color: #efaebaaf;
 }
 
 
-.searchholder{
+.searchholder {
     margin: 5px 10px;
     padding: 10px;
     align-items: center;
 }
 
-.searchbar{
+.searchbar {
+    color: #E55473;
     font-size: 18px;
     padding: 2px 5px;
     border-radius: 10px 0px 0px 10px;
     border: .5px solid #efaeba8a;
 }
 
-.search-btn{
+
+.searchbar::placeholder {
+    color: #E55473;
+}
+
+
+.search-btn {
     font-size: 18px;
     padding: 2px 5px;
-    background: #efaebaaf ;
+    background: #efaebaaf;
     border-radius: 0 10px 10px 0;
     border: none;
 }
 
-
 /* navbar style End */
+
 /* --------------------------------------------------- */
 /* banner style start */
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -85,7 +98,7 @@ header {
 }
 
 .banner-title {
-    padding: 10px ;
+    padding: 10px;
     color: #272727;
     font-size: 80px;
     font-weight: 800;
@@ -94,7 +107,7 @@ header {
 
 .banner-description {
     margin-top: 20px;
-    padding: 10px ;
+    padding: 10px;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
@@ -108,16 +121,62 @@ header {
     align-items: flex-start;
     border-radius: 8px;
     background: #E55473;
-    border:0;
+    border: 0;
 }
 
-.buttons:hover{
+.buttons:hover {
     background: transparent;
     border: 2px solid #E55473;
 }
 
 .banner-image {
     width: 500px;
-    padding-right: 20px ;
+    padding-right: 20px;
 }
+
 /* banner style end */
+
+
+/*-- hot deal section start --*/
+
+.offer-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    padding: 100px 200px 100px;
+    background: #E554730D;
+}
+
+
+.offer-content {
+    text-align: center;
+}
+
+.offer-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.offer-title>span {
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.offer-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 594px;
+}
+
+.offer-image{
+    width: 200px;
+    padding-right: 100px;
+}
+/*-- hot deal section end --*/
+
+
