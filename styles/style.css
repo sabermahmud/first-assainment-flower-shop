@@ -28,7 +28,7 @@ header {
     letter-spacing: 1px;
 }
 
-.logo span{
+.logo span {
     color: white;
 }
 
@@ -140,7 +140,21 @@ sup {
 }
 
 /* banner style end */
+/*  */
+.cetagory-cart {
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15)
+}
 
+.flower-cetagory a {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/*  */
 
 /*-- hot deal section start --*/
 
@@ -215,12 +229,14 @@ sup {
 
 }
 
-.flower-cart {
+.flower-cart,
+.cetagory-cart {
     margin: 20px 10px;
     padding-bottom: 0px;
     justify-content: space-between;
     box-shadow: 2px 2px 5px #727272;
 }
+
 /*------------------ social media style end -----------------------*/
 /* ---------------  */
 
@@ -255,7 +271,7 @@ sup {
 }
 
 
-.input-field{
+.input-field {
     padding: 20px 10px;
 }
 
@@ -275,16 +291,18 @@ sup {
     font-weight: 700;
     padding: 22px 20px
 }
+
 /* ---------------------------------------------------------------- */
 /*----------------- footer section style start ---------------*/
-footer{
+footer {
     background: #111010;
     text-align: center;
     padding: 40px 50px;
 }
 
-footer p{
+footer p {
     color: #d6d3d3;
     padding-bottom: 30px;
 }
+
 /* footer section style end */
