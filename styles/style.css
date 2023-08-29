@@ -185,8 +185,7 @@ sup {
 
 /*-- hot deal section end --*/
 /*-----------------------------*/
-/* social media style start */
-
+/*--------------- social media style start ------------------*/
 
 .social-section {
     text-align: center;
@@ -211,9 +210,8 @@ sup {
 
 .cart-holder {
     display: flex;
-    align-items: center;
-    margin: 20px 50px;
-    padding-right: 30px 50px;
+    justify-content: space-evenly;
+    margin: 20px 100px;
 
 }
 
@@ -223,7 +221,7 @@ sup {
     justify-content: space-between;
     box-shadow: 2px 2px 5px #727272;
 }
-
+/*------------------ social media style end -----------------------*/
 /* ---------------  */
 
 .subscribe-section {
@@ -278,7 +276,7 @@ sup {
     padding: 22px 20px
 }
 /* ---------------------------------------------------------------- */
-
+/*----------------- footer section style start ---------------*/
 footer{
     background: #111010;
     text-align: center;
@@ -289,3 +287,4 @@ footer p{
     color: #d6d3d3;
     padding-bottom: 30px;
 }
+/* footer section style end */
