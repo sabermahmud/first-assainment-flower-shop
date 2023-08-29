@@ -205,15 +205,15 @@ sup {
     padding: 12px 5px 24px 5px;
 }
 
-.cart-holder{
+.cart-holder {
     display: flex;
     align-items: center;
     margin: 20px 50px;
     padding-right: 30px 50px;
-    
+
 }
 
-.flower-cart{
+.flower-cart {
     margin: 20px 10px;
     padding-bottom: 0px;
     justify-content: space-between;
@@ -222,9 +222,54 @@ sup {
 
 /* ---------------  */
 
-.subscribe-section{
+.subscribe-section {
     text-align: center;
     background-image: url(../images/subscribe-bg.png);
     width: 1440px;
     margin: 30px auto;
+    padding: 40px 20px;
+}
+
+.sub-title {
+    margine: 10px 0px;
+    padding-left: 5px;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sub-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.input-field{
+    padding: 20px 10px;
+}
+
+.Subscribe-input {
+    padding: 22px 20px;
+    width: 700px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+.sub-btn {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 22px 20px
 }
