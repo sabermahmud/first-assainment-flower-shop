@@ -144,7 +144,8 @@ sup {
 .cetagory-cart {
     height: 538px;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15)
+    
+    
 }
 
 .flower-cetagory a {
@@ -152,6 +153,17 @@ sup {
     text-align: center;
     font-size: 24px;
     font-weight: 700;
+}
+.cart1{
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.cart2{
+    background: rgba(5, 151, 160, 0.15)
+}
+
+.cart3{
+    background: rgba(71, 125, 17, 0.15);
 }
 
 /*  */
