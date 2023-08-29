@@ -16,7 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: white;
+    background: rgb(0, 0, 0);
 }
 
 
@@ -28,8 +28,12 @@ header {
     letter-spacing: 1px;
 }
 
+.logo span{
+    color: white;
+}
+
 sup {
-    color: #272727;
+    color: #d6d3d3;
     font-size: 15px;
 }
 
@@ -42,12 +46,12 @@ sup {
 
 .navbar-options a {
     text-decoration: none;
-    color: #2727279d;
+    color: #f5f2f29d;
     font-size: 20px;
 }
 
 .navbar-options a:hover {
-    color: #efaebaaf;
+    color: lightpink;
 }
 
 
@@ -73,8 +77,8 @@ sup {
 
 .search-btn {
     font-size: 18px;
-    padding: 2px 5px;
-    background: #efaebaaf;
+    padding: 3px 5px;
+    background: lightpink;
     border-radius: 0 10px 10px 0;
     border: none;
 }
@@ -272,4 +276,16 @@ sup {
     font-size: 20px;
     font-weight: 700;
     padding: 22px 20px
+}
+/* ---------------------------------------------------------------- */
+
+footer{
+    background: #111010;
+    text-align: center;
+    padding: 40px 50px;
+}
+
+footer p{
+    color: #d6d3d3;
+    padding-bottom: 30px;
 }
