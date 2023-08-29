@@ -9,7 +9,68 @@
 header {
     background: #efaebaaf;
 }
+/* navbar style start */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+}
+
+
+.logo{
+    padding: 20px 20px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #f77089;
+    letter-spacing: 1px;
+}
+
+
+.navbar-options>ul>li{
+    list-style: none;
+    display: inline;
+    padding: 0px 10px;
+}
+
+.navbar-options a{
+    text-decoration: none;
+    color: #2727279d;
+    font-size: 20px;
+}
+
+.navbar-options a:hover{
+    color: #efaebaaf;
+}
+
+
+.searchholder{
+    margin: 5px 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+.searchbar{
+    font-size: 18px;
+    padding: 2px 5px;
+    border-radius: 10px 0px 0px 10px;
+    border: .5px solid #efaeba8a;
+}
+
+.search-btn{
+    font-size: 18px;
+    padding: 2px 5px;
+    background: #efaebaaf ;
+    border-radius: 0 10px 10px 0;
+    border: none;
+}
+
+
+/* navbar style End */
+/* --------------------------------------------------- */
 /* banner style start */
+
 .banner{
     display: flex;
     justify-content: space-between;
