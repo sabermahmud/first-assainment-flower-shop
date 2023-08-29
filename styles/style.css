@@ -6,3 +6,57 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+header {
+    background: #efaebaaf;
+}
+/* banner style start */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20 0px;
+}
+
+.banner-content {
+    margin: 40px 20px 20px;
+    padding: 30px 10px 0px;
+    width: 100%;
+}
+
+.banner-title {
+    padding: 10px ;
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    width: 800px;
+}
+
+.banner-description {
+    margin-top: 20px;
+    padding: 10px ;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 634px;
+}
+
+.buttons {
+    font-size: 18px;
+    margin: 15px;
+    padding: 15px 35px;
+    align-items: flex-start;
+    border-radius: 8px;
+    background: #E55473;
+    border:0;
+}
+
+.buttons:hover{
+    background: transparent;
+    border: 2px solid #E55473;
+}
+
+.banner-image {
+    width: 500px;
+    padding-right: 20px ;
+}
+/* banner style end */
